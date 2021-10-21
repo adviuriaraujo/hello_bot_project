@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0rem 3rem;
+}
+
+.illustration-box{
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.illustration-box *{
+    position: relative
+}
+
+.italic{
+    /*position: absolute;
+    width: 124px;
+    height: 25px;
+    left: 215px;
+    top: 129px;*/
+
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 300;
+    text-align: right;
+    color: #423088;
+}
+
+.illustration1{
+    max-height: 60%;
+    max-width: 60%; 
+}
+
+.illustration2{
+    max-height: 40%;
+    max-width: 40%;
+}
+
+.cta-box{
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+}
+
+.cta{
+    font-size: 1.5em;
+    background: #423088      
+}
+
+.cta:hover{
+    box-shadow: 0px 0px 0px 10px #423088, 2px 2px 11px 11px rgba(0 0 0 / 25%)  ;
+    color: #D4752E;
+}
+
+.motto-box{
+    text-align: center;
+    margin: 3rem;
+    color: #423088;
+    display: flex;
+    justify-content: center;
+}
+
+.motto{
+    max-width: 400px;
+}
+
+.banner{
+    background: #f0f0f0;
+}
+
+.banner-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.banner-item{
+    min-width: 230px;
+    min-height: 94px;
+    display: flex;
+    align-content: center;
+}
+
+.banner-item div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0.5rem;
+}
+
+h3{
+    color: #423088;
+}
+
+
